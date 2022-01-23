@@ -16,5 +16,6 @@ class Usuario {
     required this.edad, 
     this.profesiones=defaultValue});
 
+    // :assert(nombre != null) fuerza un error
 
 }
